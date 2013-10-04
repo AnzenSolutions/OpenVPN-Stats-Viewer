@@ -21,8 +21,8 @@ import linecache
 """
 Layout:
 stats/
- -- ovpn (global stats)
- -- cn_1/
+ -- global (global stats)
+ -- cn_1/ (cn_1 replaced by CN of OpenVPN user)
  -- -- <epoch> (filename is unix timestamp/epoch, inside is CSV format of session data)
 """
 STATS_DIR = os.path.join(os.path.abspath("."), "stats")
